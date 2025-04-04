@@ -8,6 +8,16 @@
 
 /* personalizzo il footer  */
 footer {
-    height: 13vh;
+    
     background-color: cornflowerblue;
+    padding-top: 1%;
+}
+.mezzo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contatti p{
+    display: flex;
+    align-items: center;
 }
