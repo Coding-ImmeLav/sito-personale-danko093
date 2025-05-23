@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 300vh;
+    background-image: url(image/immagine1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* personalizzo il footer  */
@@ -41,4 +44,27 @@ footer {
     position: sticky;
     top: 0;
     z-index: 999; /* tenere tutto davanti */
+}
+
+.glow-text {
+  color: #ffffff; /* White text */
+  text-shadow:
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.glow-subtext {
+  color: #ffffff; /* White text */
+  text-shadow:
+    0 0 3px #ff4d4d,
+    0 0 8px #ff4d4d,
+    0 0 15px #ff4d4d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texts {
+    padding-bottom: 850px;
 }
